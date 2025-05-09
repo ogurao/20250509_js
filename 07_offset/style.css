@@ -1,0 +1,21 @@
+@charset "utf-18";
+
+/* 表示調整用スタイル */
+body{
+ /* 最低限の高さを１画面分に設定 */
+ min-height: 100vh;
+ /* 子要素を画面中央に設置 */
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+
+
+/* CSSを記述 */
+p{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    margin: 0;
+}
